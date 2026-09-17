@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "echo 'Static site, no build step needed.'"
+    "build": "mkdir -p dist && cp -r index.html *.css *.js *.png *.jpg *.svg *.woff dist/ 2>/dev/null; true"
   }
 }
