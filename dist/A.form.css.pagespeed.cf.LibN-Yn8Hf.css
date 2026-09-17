@@ -1,0 +1,51 @@
+/* Code tidied up by ScrapBook */
+.api-form1 * { padding: 0px ! important; margin: 0px ! important; font-family: roboto,sans-serif ! important; }
+.api-form1 .submit:hover { background: rgb(46, 125, 50) none repeat scroll 0% 0%; }
+.api-form1 .form-header { text-align: center ! important; }
+.cta-btn1 a, .cb-con .submit, .api-form1 .submit, .cb-but, .blg { outline: medium none ! important; max-width: 100% ! important; font-style: normal ! important; box-sizing: border-box ! important; line-height: 1.5 ! important; position: static ! important; height: auto ! important; box-shadow: none ! important; text-align: center ! important; clear: both ! important; font-weight: 700 ! important; border: 0px none; background: rgb(56, 142, 60) none repeat scroll 0% 0%; color: rgb(255, 255, 255) ! important; font-size: 22px ! important; text-decoration: none ! important; padding: 15px 35px ! important; border-radius: 35px ! important; width: 100% ! important; display: block ! important; cursor: pointer ! important; margin: 15px 0px 0px ! important; text-transform: none ! important; }
+.api-form1 .text1 a:hover { text-decoration: underline ! important; color: rgb(165, 38, 38) ! important; }
+.api-form1 .text1 a { box-shadow: none ! important; font-weight: 700 ! important; color: rgb(202, 45, 45) ! important; border: medium none ! important; padding: 0px ! important; margin: 0px ! important; display: inline ! important; }
+.api-form1 *::before, .api-form1 *::after { content: none; }
+.cb-con label, .api-form1 label { font-style: normal; font-size: 12px ! important; font-weight: 700 ! important; cursor: text ! important; text-align: left ! important; display: block ! important; color: rgb(34, 34, 34) ! important; margin: 0px 0px 2.5px 20px ! important; padding: 0px ! important; }
+.api-form1 .country-flag { width: 25px ! important; position: relative ! important; top: 2px ! important; }
+.api-form1 p.delivery { background: transparent linear-gradient(to right, transparent 0%, rgb(221, 221, 221) 50%, transparent 100%) repeat scroll 0% 0% ! important; margin: 15px 0px 0px ! important; padding: 5px ! important; text-align: center ! important; font-size: 16px ! important; color: rgb(85, 85, 85) ! important; }
+.api-form1 .footnote1 { line-height: 15px ! important; text-indent: 0px ! important; font-size: 10px ! important; margin: 10px 0px 0px ! important; text-align: center ! important; padding: 0px ! important; color: rgb(136, 136, 136) ! important; }
+.api-form1 .text { border: medium none ! important; text-align: center ! important; color: rgb(34, 34, 34) ! important; padding: 0px ! important; font-size: 18px ! important; width: 100% ! important; float: none ! important; line-height: 25px ! important; font-weight: 700 ! important; margin: 10px 0px ! important; }
+.api-form1 form { padding: 0px ! important; background: transparent none repeat scroll 0px 0px ! important; margin: 15px auto 0px ! important; }
+.api-form1 .form-body .text .offer-name, .api-form1 .form-body .text .offer-price { color: rgb(202, 45, 45) ! important; font-weight: 700 ! important; }
+.api-form1 { background: rgb(255, 255, 255) none repeat scroll 0% 0% ! important; box-sizing: border-box ! important; max-width: 465px ! important; position: relative ! important; margin: 10px auto ! important; text-align: center ! important; border: 2.5px dashed rgb(221, 221, 221) ! important; border-radius: 2.5px ! important; padding: 30px ! important; clear: both ! important; }
+.api-form1 .deadline1 { font-size: 12px ! important; color: rgb(34, 34, 34) ! important; text-align: center ! important; margin: 0px ! important; }
+.api-form1 .name:invalid, .api-form1 .phone:invalid, .api-form1 .country:invalid, .api-form1 .name, .api-form1 .phone, .api-form1 .country { font-style: normal; transition: all 0.25s ease 0s ! important; line-height: 20px ! important; box-shadow: none ! important; font-size: 16px ! important; font-weight: 400 ! important; max-width: 100% ! important; width: 100% ! important; height: auto ! important; background: rgb(242, 242, 242) none repeat scroll 0% 0% ! important; outline: medium none ! important; box-sizing: border-box ! important; border: 2.5px solid rgb(221, 221, 221) ! important; border-radius: 35px ! important; padding: 15px ! important; margin: 0px 0px 15px ! important; }
+.api-form1.name:focus, .api-form1 .phone:focus, .api-form1 .country:focus { border: 2.5px solid rgb(170, 170, 170) ! important; }
+.api-form1 .cta-form { margin: 0px ! important; }
+.api-form1 { padding: 15px ! important; }
+.api-form1 .submit { font-size: 16px ! important; padding: 15px 5px ! important; }
+.form-header1 .form-header1 { text-align: center ! important; }
+.api-form1 .cta-form1 { margin: 0px ! important; }
+.cb-con1 .cta-form1 { text-align: center ! important; margin-top: 30px ! important; margin-bottom: 0px ! important; display: grid; grid-template-columns: repeat(auto-fill, minmax(50%, 1fr)) ; }
+.cb-con1 .cta-form1 { margin-top: 15px ! important; display: block; }
+.product-image1 { position: relative ! important; margin: 0px auto ! important; background: rgb(255, 255, 255) none repeat scroll 0% 0% ! important; text-align: center ! important; }
+.product-image1 img { margin: 0px ! important; border: medium none ! important; padding: 0px ! important; width: 100% ! important; z-index: 0 ! important; position: static ! important; }
+.cb-con1 .product-image1 { max-width: 300px; }
+.cb-tex1 .product-image1 {  }
+.product-banner-text1 { font-size: 16px ! important; }
+.product-banner1 { width: 125px ! important; height: 125px ! important; }
+.product-banner1 { margin-top: 10px ! important; opacity: 0.9 ! important; display: table ! important; width: 150px ! important; height: 150px ! important; line-height: 25px ! important; color: rgb(255, 255, 255) ! important; font-size: 18px ! important; text-align: center ! important; background-size: 100% auto ! important; position: absolute ! important; top: 0px ! important; right: 0px ! important; text-decoration: none ! important; }
+.product-banner-text1 { text-align: center ! important; margin: 0px ! important; font-weight: 700 ! important; color: rgb(242, 242, 242) ! important; display: table-cell ! important; font-size: 20px ! important; vertical-align: middle ! important; position: relative; }
+.product-banner-text1::after { position: relative; top: -5px; left: -2.5px; }
+.product-banner-text1 { font-size: 16px ! important; }
+.api-form1 .form-body1 .text1 .offer-name1, .api-form1 .form-body1 .text1 .offer-price1 { color: rgb(202, 45, 45) ! important; font-weight: 700 ! important; }
+#text1 { margin-top: 40px; vertical-align: top; display: inline-block; width: 75%; margin-right: 0px; text-align: center; }
+.offer-name1 { color: rgb(255, 235, 59) ! important; }
+.cb-con1 .name1:invalid, .cb-con1 .phone:invalid, .cb-con1 .country:invalid, .cb-con1 .name1, .cb-con1 .phone, .cb-con1 .country, .api-form1 .name1:invalid, .api-form1 .phone:invalid, .api-form1 .country:invalid, .api-form1 .name1, .api-form1 .name1:focus, .cta-btn1 *, .cta-btn1 { text-align: center ! important; max-width: 445px; margin: 15px auto; }
+.api-form1 .text1 { border: medium none ! important; text-align: center ! important; color: rgb(34, 34, 34) ! important; padding: 0px ! important; font-size: 18px ! important; width: 100% ! important; float: none ! important; line-height: 25px ! important; font-weight: 700 ! important; margin: 10px 0px ! important; }
+.order-btn { position: relative ! important; }
+.order-btn::before { content: ""; position: absolute; left: 12px; top: 0px; display: block; width: 100%; height: 100%; margin: 0px; background-size: contain; animation-name: animBtn; animation-duration: 1s; animation-iteration-count: infinite; animation-direction: alternate; }
+@keyframes animBtn {
+0% { left: -50%; }
+100% { left: 100%; }
+}
+@keyframes animBtn {
+0% { left: -50%; }
+100% { left: 100%; }
+}

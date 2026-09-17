@@ -1,0 +1,69 @@
+/* Code tidied up by ScrapBook */
+.main_content p.pop-up-text { margin-bottom: 25px; font-size: 24px; line-height: 30px; text-align: center ! important; }
+.hi { left: 50% ! important; transform: translateX(-50%); }
+.main_content p.door__sales { left: 0px ! important; }
+@media (max-width: 767px) {
+  .door__sales { font-size: 20px ! important; }
+  .main_content p.door__sales { padding: 10px ! important; }
+}
+.door__container { display: flex; justify-content: space-around; }
+.box { perspective: 500px; position: relative; }
+.box, .door { width: 190px; height: 400px; box-shadow: -1px -1px 0px 1px rgb(25, 25, 25) inset, 1px 1px 0px 1px rgb(25, 25, 25) inset; }
+.door, .hi { position: absolute; top: 0px; left: 0px; }
+.door { background-image: url("door.png"); background-repeat: no-repeat; transform: rotateY(0deg); display: inline-block; transition: all 0.75s ease 0s; transform-origin: 0% 0% 0px; cursor: pointer; }
+#door__2 { background-image: url("door2.png"); }
+#door__3 { background-image: url("xdoor3.png.pagespeed.ic.fvBAkeNEXn.png"); }
+.door:hover { transform: rotateY(-30deg); }
+.door.open { transform: rotateY(-85deg); }
+.door__sales { position: relative; top: 140px; font-size: 46px ! important; font-weight: 700 ! important; color: red ! important; border-radius: 30px ! important; padding: 30px 5px ! important; box-shadow: 0px 1px 2px 2px rgb(127, 120, 120); }
+.door__title { color: rgb(255, 255, 255); font-weight: 700; text-transform: uppercase; text-align: center; font-size: 22px ! important; margin-bottom: 25px; background-color: rgb(58, 71, 82); padding: 10px 0px; border-radius: 0.5em; }
+@media (max-width: 840px) {
+  .door__sales { font-size: 20px ! important; font-weight: 700 ! important; top: 50px ! important; color: red ! important; border-radius: 30px ! important; }
+  .box, .door { width: 95px; height: 200px; }
+  .door { background-image: url("media_door.png"); }
+  #door__2 { background-image: url("media_door2.png"); }
+  #door__3 { background-image: url("xmedia_door3.png.pagespeed.ic.H6FOiLM2ub.png"); }
+}
+@media (max-width: 360px) {
+  .box + .box { margin-left: 15px; }
+  .door__sales { font-size: 25px ! important; font-weight: 700 ! important; top: 50px ! important; color: red ! important; left: 0px ! important; border-radius: 30px ! important; }
+}
+.order_block, .spin-result-wrapper { display: none; }
+.spin-result-wrapper { max-width: 100%; display: none; padding: 0px 10px; box-sizing: border-box; width: 100%; top: 0px; z-index: 999; left: 0px; height: 100%; position: fixed; background-color: rgba(0, 0, 0, 0.6); text-align: center; }
+.pop-up-window { position: relative; max-width: 400px; right: 0px; left: 0px; top: 40%; margin: 0px auto; background: rgb(255, 255, 255) none repeat scroll 0px 0px; text-align: center; padding: 70px 10px 20px; border-radius: 10px; animation: 0.7s ease 0s normal none 1 running pop-up-appear; }
+.close-popup { position: absolute; width: 30px; height: 30px; background-image: url("https://essential-diet-au.com/l/glycobalance-au-main_taboola_1_1732876174/styles/cross.svg"); background-size: 100% auto; top: -40px; border-radius: 50%; box-shadow: 0px 0px 10px rgb(255, 255, 255); right: -40px; cursor: pointer; }
+.pop-up-heading { font-size: 40px; margin-bottom: 20px; }
+.pop-up-text { margin-bottom: 25px; font-size: 24px; line-height: 30px; text-align: center ! important; }
+.pop-up-button { text-transform: uppercase; text-decoration: none ! important; padding: 10px 20%; font-size: 20px; border-radius: 5px; background-color: rgb(113, 195, 65); color: rgb(255, 255, 255) ! important; border: medium none; cursor: pointer; outline: medium none; }
+.super-rotation { animation-name: super-rotation; animation-duration: 7s; animation-fill-mode: forwards; transition-timing-function: ease-in-out; }
+@keyframes super-rotation {
+70% { transform: rotate(1783deg); }
+100% { transform: rotate(1774deg); }
+}
+@keyframes super-rotation {
+70% { transform: rotate(1783deg); }
+100% { transform: rotate(1774deg); }
+}
+.cursor-text:active { box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4) inset; }
+.pop-up-layer { position: fixed ! important; top: 0px ! important; width: 100% ! important; height: 100% ! important; background-color: rgba(0, 0, 0, 0.7) ! important; z-index: 99 ! important; }
+.pop-up-layer-show { display: block; }
+.pop-up-window { position: relative; max-width: 400px; right: 0px; left: 0px; top: 40%; margin: 0px auto; background: rgb(255, 255, 255) none repeat scroll 0px 0px; text-align: center; padding: 70px 10px 20px; border-radius: 10px; animation: 0.7s ease 0s normal none 1 running pop-up-appear; }
+.pop-up-window::before { content: ""; position: absolute; width: 110px; height: 110px; top: -55px; left: 0px; right: 0px; margin: 0px auto; background-color: rgb(113, 195, 65); border-radius: 50%; animation: 0.5s ease 0.6s normal backwards 1 running pop-up-appear-before; }
+.pop-up-window::after { content: ""; position: absolute; width: 50px; height: 20px; top: -20px; left: 0px; right: 0px; margin: 0px auto; border-width: medium medium 4px 4px; border-style: none none solid solid; border-color: currentcolor currentcolor rgb(255, 255, 255) rgb(255, 255, 255); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; transform: rotate(-45deg); transition: opacity 1s ease 0s; animation: 0.5s ease 0.6s normal backwards 1 running pop-up-appear-after; }
+.text_small { font-size: 0.5em ! important; font-weight: 400 ! important; }
+@keyframes pop-up-appear {
+0% { transform: translateY(-2000px); }
+30% { transform: translateY(100px); }
+100% { transform: translateY(0px); }
+}
+@keyframes pop-up-appear-before {
+0% { transform: scale(0); }
+100% { transform: scale(1); }
+}
+@keyframes pop-up-appear-after {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+.pop-up-button:hover { color: rgb(255, 255, 255) ! important; text-decoration: none ! important; }
+.order_block h3 { text-align: center; font-size: 20px; }
+.time_remains { color: red; }
